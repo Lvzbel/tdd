@@ -1,0 +1,30 @@
+{
+    "name": "rodrigo/tdd",
+    "require": {
+        "pestphp/pest": "^2.33"
+    },
+    "authors": [
+        {
+            "name": "Rodrigo Coto",
+            "email": "26789151+Lvzbel@users.noreply.github.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "pest": "./vendor/bin/pest"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
